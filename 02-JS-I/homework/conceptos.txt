@@ -1,0 +1,32 @@
+
+    1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+        ◦ Variables: Es el nombre que se le asigna a un espacio de memoria, para guardar datos sea de tipo: int, float, String, Double, etc. Por ejemplo, si se quiere saber los datos básicos de una persona, como el nombre, apellido y la edad; entonces para mostrar esos datos, es  necesario guardarlos en un campo, y a ese campo se le puede poner el mismo nombre de lo que se quiere saber(nombre, apellido y edad).
+          
+          String nombre ="Liam";
+          String apellido ="Perea";
+          int edad = 3;
+         
+    • Strings:   Es un tipo de dato, o conocidas como cadena de texto; donde siempre se debe de tener un nombre , para guardar el texto ;  y este debe ir en  comillas para ser asignado a esa variable ; por ejemplo 
+      
+                 String animal = “ perro”;
+                 String objeto = “cama”;
+                 String ciudad = “Buenaventura”;
+
+               Donde perro, cama y Buenaventura son las cadenas de texto.
+      
+    •  Funciones (argumentos, return): Es un conjunto de expresiones y sentencias  que ayudara a reducir repetición de código  ya que se puede invocar las veces que sea   necesaria. A esta  se le deberá poner un nombre.
+       Por otro lado, este tipo de función, recibe dos variables,  por lo tanto deberá devolver un valor.
+      
+    •  Declaraciones if : son sentencias o condicionales, necesarias  para verificar la información ingresada por el usuario. Por ejemplo: por ejemplo, si  se quiere comparar si un numero es mayor que otro, si el nombre ingresado es correcto, etc
+                 
+                  if( numero1 > numero2)
+                     {
+                       return true;
+                     }else{
+                               return false;
+                              } 
+    • Valores booleanos (true, false) : Este tipo de dato es  lógico, es decir que solo obtiene valores como  true(verdadero) o false(falso) , 0 (activar) o 1 (desactivar)
+
+
+
