@@ -5,7 +5,20 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+  if((Number.isInteger(x))&& (Number.isInteger(y))){
+    if (x>y) {
+      return x;
+    } else if(y>x){
+      return y
+    }else{
+      return x || y;
+    }
+  }
+  else{
+    return "No son enteros";
+  }
 }
+obtenerMayor(8,9);
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
