@@ -1,0 +1,36 @@
+
+    1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+    •for: Es una  estructura de repetición; es decir que permitirá repetir que se repita instrucciones las veces que se desee; y para ello es necesario : primero declarar una variable e iniciarla, segundo indicar las veces que se desea repetir y tercero indicar el incremento de la variable para que cumpla con el condicional( segundo punto).
+    por ejemplo: si se desea imprimir los números de 1 al 200, para evitar lo siguiente:
+                 console.log(1);
+                 console.log(2):
+                      .
+                      .
+                      .
+                 console.log(200);
+                 
+                 se hace uso de esta estructura:
+                 for(var i = 0; i <=200;i++){
+                     console.log(i);
+                  }
+    • &&:   Es un operador lógico, el cual indica que se debe cumplir ambas expresiones; es decir: si se desea saber si un numero x , esta dentro 1 y 5,entonces ambas expresiones se deben de cumplir para poder mostrar esos números; este operador hace referencia al "Y" y se utiliza en la sentencia if.  
+    DEMOSTRACIÓN:
+          var num= 8;
+          if( num >1 && num<5){
+            console.log(num+" esta entre 1 y 5);
+            }else{
+             console.log(num+" NO esta entre 1 y 5);// Respuesta que se obtendría.
+             }        
+      
+      
+    •  || :Al igual que el anterior es un operador lógico; pero este indica que se puede cumplir cualquiera de las expresiones; este hace referencia al "O".
+    DEMOSTRACIÓN
+          var num= 8;
+          if( num >1 || num<5){
+            console.log(num+" esta entre 1 y 5);//respuesta que se obtendría.
+            }else{
+             console.log(num+" NO esta entre 1 y 5);
+             }    
+    •  ! : Representa la negación de una expresion.ejemplo si se sabe que 1 === 1 es verdadero; pero si quiere obtener lo contrario u opuesto de expresión se le agrega el signo de exclamación(!) en la parte izquierda: !(1===1) así se convertiría esa expresión a falsa.
+                 
