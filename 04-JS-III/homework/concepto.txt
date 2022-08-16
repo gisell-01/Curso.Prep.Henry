@@ -1,0 +1,15 @@
+como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+
+    •Arrays: Los arrays son contenedores, donde se podrá almacenar una colección de datos ya sea del mismo tipo o no; es decir como tener una caja y guardar diferentes contenido en ella, tales como: banana, mango,pelota, galleta,etc.
+    
+    Ejemplo en programación:
+        var datos = [2,5,8,"h",12.5,true,"Hola"];
+        console.log(datos);
+    Este es un breve ejemplo de un array, el cual tiene como nombre "datos" y en el se esta almacenando distinto tipo de datos, como:
+     int --------> 2, 5 y 8
+     char -------> 'h'
+     float ------> 12.5
+     booleano ----> true
+     String -----> "Hola"
+Finalmente, se mostraran por consola, utilizando : console.log();
