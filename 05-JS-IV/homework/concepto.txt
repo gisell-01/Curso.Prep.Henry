@@ -1,0 +1,34 @@
+
+
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+    Objetos: Es  considerado como una variable que contiene una colección de datos, los cuales son asignado a cada propiedad que lo componga.
+    
+    Propiedades: Hacen referencia a las características que posee un objeto, es decir que se puede considerar como variable.
+    
+    Métodos: Son funciones que se puede ser asignada como valor de una propiedad. Ejemplo
+    var saludo = {
+    "foo"   : "bar",
+    "hello" : function() { console.log("Hello world!"); }
+};
+    
+    Bucle for…in: utilizado para recorrer un objeto ya que este no utiliza indices como el for normal.
+    
+    Notación de puntos vs notación de corchetes: Estas notaciones  se usan para acceder a la propiedad del objeto; con la diferencia que al usar los corchetes se esta indicando que el nombre de la propiedad es un String por lo tanto se podrá acceder a aquella propiedad que contenga caracteres especiales sin ningún problema.
+    
+    var persona = {
+    "nombre": "Gisela",
+    "numero de hijos": 3
+    }
+    Como ejemplo tenemos el objeto persona, que tiene como propiedad nombre y numero de hijos. Al tratar de imprimir el numero de hijos de ese objeto por consola se usaría:
+   
+    console.log(persona["numero de hijos"]); 
+
+    y este mostraría como resultado el 3 sin ningún problema, en cambio al usar el punto 
+
+   console.log(persona,numero de hijos); 
+   
+   Esta nos mostraría un mensaje de error de sintaxis:
+    Uncaught SyntaxError: missing ) after argument list [saber mas]
+    
+
