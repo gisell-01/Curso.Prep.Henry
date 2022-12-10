@@ -1,0 +1,4 @@
+Prototype: Es un mecanismo el cual permite que un objeto obtenga todas las propiedades del mismo o superior, es decir si el objeto X tiene las características Y y M, entonces el objeto N con características L obtiene Y y M, del objeto X y viceversa. Por otro lado cada objeto que se cree automáticamente se generan otras propiedades como la toString.
+
+Constructor(de Clases): Es el diseño que define las propiedades de la clase.
+
