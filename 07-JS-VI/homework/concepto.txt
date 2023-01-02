@@ -1,0 +1,3 @@
+Callback:
+Es una función que no permite desorden en la ejecución del código. Es decir que sin importar cualquier tipo de contratiempo todo lo que este en el código se ejecutará según el orden.
+
