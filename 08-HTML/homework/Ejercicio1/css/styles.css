@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    min-height: 65vh;
+    background: url(https://cdn.colombia.com/images/v2/turismo/sitios-turisticos/pacifico/Las-playas-de-la-region-de-Nuqui-800.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*     
+   
+    min-width: 298px;
+    height: 60vh; */
+
+}
+
+
+#principal {
+    display: grid;
+    position: relative;
+    place-content: center;
+    place-items: center;
+    grid-template-areas: 
+    "titulo"
+    "titulo3"
+    "titulo4"
+    ;
+    gap: 2em;
+    margin-top: -30%;
+ 
+}
+#descripcion {
+    display: grid;
+    position: relative;
+    gap: 18em;
+    place-content: center;
+    place-items: center;
+    grid-template-areas: 
+    "mi-descripcion"
+    "mi-restaurante"
+    ;
+}
+
+.divClass2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#descripcion{
+    margin-bottom: -10%;
+}
+#thirdDiv ul {
+    width: 400px;
+    display: grid;
+    position: relative;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+
+}
+
+#thirdDiv img {
+    width: 400px;
+    height: 190px;
+    border-radius: 15px 15px 0 0;
+    margin-top: 5px;
+}
+
+#thirdDiv li {
+    list-style: none;
+    padding: 0 0.5rem;
+}
+
+h1 {
+    color: rgb(229, 245, 240);
+    font-size: calc(19px + 1vw) ;
+}
+
+h3,
+h4 {
+    color: rgb(189, 241, 193);
+    font-size: calc(10px + 1vw) ;
+}
+
+#spanId {
+    font-size: calc(10px + 1vw) ;
+    color: rgb(245, 243, 237);
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+    grid-area: mi-descripcion;
+    line-height: 2rem;
+
+}
+
+a {
+    color: rgb(238, 227, 230);
+    border: solid;
+    border-radius: 20px;
+    overflow: visible;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    position: absolute;
+    font-size: calc(9px + 1vw) ;
+    grid-area: mi-restaurante;
+    margin-bottom: 40%;
+}
+
+a:hover {
+    background-color: rgb(189, 241, 193);
+    opacity: .85;
+    color: rgb(59, 58, 58);
+}
+
+.content p {
+    color: rgb(209, 201, 192);
+    font-size: calc(9px + .5vw) ;
+    font-family: 'Tangerine', serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.content {
+
+    width: 400px;
+    height: 190px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    place-content: center;
+    place-items: center;
+    margin: 0;
+    margin-top: -194px;
+    background: rgba(14, 10, 10, 0.4);
+    opacity: 0;
+    border-radius: 15px 15px 0 0;
+    transition: .5s;
+
+}
+
+.card:hover .content {
+    opacity: 10;
+}
+
+@media (max-width: 1000px) {
+  
+    #thirdDiv ul {
+       
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+    #spanId{
+        font-size: calc(6px + 1vw) ;
+        padding: 0;
+        padding-top: 2px;
+        line-height: 1.5rem;
+        margin-top: 2%;
+    }
+    a{
+        font-size: calc(6px + 1vw) ;
+        margin-bottom: 20%;
+
+    }
+    .content p{
+        font-size: calc(1px + 2vw) ;
+
+    }
+    #principal {
+        margin-top: -10%;
+        gap: 1em;
+        margin-bottom: 2%;
+    }    
+    #descripcion{
+        gap: 10em;
+        margin-bottom: -1%;
+    }
+    .divContenedor{
+        margin-top: -40%;
+    }
+    #thirdDiv img{
+        width: 250px;
+        height: 150px;
+    }
+    .content{
+        width: 250px;
+        height: 150px;
+        margin-top: -38.5%;
+    }
+    .content p{
+        font-size: calc(7px + .5vw) ;
+
+    }
+}
+
+@media (max-width: 600px) {
+ 
+    #spanId{
+        margin-top: 5%;
+    }
+    a{
+        margin-bottom: 40%;
+
+    }
+
+    #principal {
+        margin-top: -60%;
+        margin-bottom: 2%;
+    }    
+    #descripcion{
+        gap: 10em;
+        margin-bottom: -10%;
+    }
+    .divContenedor{
+        margin-top: -40%;
+    }
+    #thirdDiv img{
+        width: 180px;
+        height: 140px;
+    }
+    .content{
+        width: 180px;
+        height: 140px;
+        margin-top: -36%;
+    }
+    .content p{
+        font-size: calc(7px + .5vw) ;
+
+    }
+}
+
+@media (max-width: 300px) {
+    #principal{
+        margin-top: -90%;
+    }
+    #thirdDiv img{
+        width: 110px;
+        height: 90px;
+    }
+    .content{
+        width: 110px;
+        height: 90px;
+        margin-top: -23.5%;
+    }
+}

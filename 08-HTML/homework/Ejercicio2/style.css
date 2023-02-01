@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(91, 129, 206, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns:1fr 2fr;  
+}
+.cv{
+    position: relative;
+    display: grid;
+    min-height: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows:5fr 1fr ;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.divNota{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    background-color: rgb(252, 252, 252);
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+    border-top: solid 2px;
+    border-color: #a5a7aac7;
+}
+
+/* PARTE IZQUIERDA*/
+.divContenedor1 {
+    position: relative;
+    background: rgb(226, 225, 228);
+    padding: 40px;
+}
+
+.divContenedor1 p {
+    color: #313335c7;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 12px;
+    line-height: 35px;
+}
+
+.divFormaImg {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    margin-top: 20px;
+    border: solid rgba(91, 129, 206, 0.507) 5px;
+    border-style: dotted;
+}
+
+.divFormaImg2 {
+    background-color: rgb(252, 252, 252);
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    margin-top: 10px;
+    border: solid rgb(204, 209, 209);
+}
+
+#perfil {
+    width: 357px;
+    height: 258px;
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: 6%;
+    clip-path: circle(104px);
+    display: block;
+    margin: auto;
+
+}
+
+.divFondoh3 {
+    border-bottom: solid 4px;
+    border-color: #a5a7aac7;
+}
+
+.divContacto li {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #313335c7;
+
+}
+
+/* PARTE DERECHA*/
+.divContenedor2 {
+    position: relative;
+    background-color: rgb(252, 252, 252);
+    padding: 40px;
+    justify-content: center;
+}
+
+.divContenedor2 h1 {
+    color: #848c90;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.divContenedor2 #h5-1 {
+    font-size: 20px;
+    margin-top: -25px;
+    color: #313335c7;
+
+}
+
+.divEstudios .study {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+}
+
+.divEstudios .study .fechas {
+    min-width: 100px;
+}
+
+.divEstudios .study .fechas h5 {
+    font-size: 15px;
+    color: #848c90;
+}
+
+.divEstudios .study .fechas h4 {
+    font-size: 15px;
+    color: #313335c7;
+
+}
+
+.divEstudios .study .cursos p {
+    font-size: 20px;
+    margin: 0 20px;
+    width: 300px;
+    color: #313335c7;
+
+}
+
+.divHabilidades li {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #313335c7;
+}
+
+.pntj {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(3, 10px);
+    margin-top: 20px;
+}
+
+.divHabilidades .habi {
+    display: grid;
+    grid-template-columns: 213px 300px;
+    grid-template-rows: repeat(3, 30px);
+    column-gap: 2px;
+
+}
+
+.divpuntaje {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: solid 2px;
+    border-color: #848c90;
+}
+
+.divHabilidades p {
+    font-size: 20px;
+    margin: 20px 20px;
+    color: #313335c7;
+
+}
+
+.divpuntaje.active {
+    background-color: rgb(226, 225, 228);
+}
+
+.divHobbis li {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #313335c7;
+}
+
+/* NOTA */
+.divContacto li,
+.divHobbis li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.divNota h3 {
+    font-size: 18px;
+    padding: 0 20px;
+    margin: 20px;
+
+}
+
+.divNota p {
+    padding: 0 20px 0 20px;
+    font-size: 15px;
+    margin: 5px;
+    font-size: 17px;
+    color: #313335c7;
+}
+
+.divNota  ul li {
+    color: #848c90;
+    margin-left: 30px;
+}
+
+.divContacto li i,
+.divHobbis li i {
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: rgb(82, 78, 76);
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+@media (max-width: 1000px) {
+    .cv{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);   
+    }
+    .container {
+        grid-template-columns: repeat(1,1fr);       
+    }
+    .divContenedor1, .divContenedor2{
+        width: 100%;
+        padding: 30px;
+    }
+    .divHobbis li, #group .habi p,.divContenedor1 p,.divContacto li{
+        font-size: 1.5rem;
+    }
+    .divEstudios .study .cursos p{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .divEstudios .study .fechas h4, .divEstudios .study .fechas h5, .divContenedor2 #h5-1,.divNota .divN1, .divNota .divN2{
+        font-size: 1.5rem;
+    }
+    #perfil{
+        image-rendering: crisp-edges;
+    }
+  
+   
+}
+@media (max-width: 600px) {
+    .cv{
+        margin: 30px;
+        grid-template-columns: repeat(1,1fr);   
+    }
+    .container {
+        grid-template-columns: repeat(1,1fr);       
+    }
+    .divContenedor1, .divContenedor2{
+        width: 100%;
+        padding: 30px;
+    }
+    .divNota{
+        grid-template-columns: 1fr;
+    }
+    .divContenedor2 .study{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .divEstudios .study .cursos p{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    .divEstudios .study .fechas h4, .divEstudios .study .fechas h5,.divContenedor2 #h5-1,.divNota .divN1, .divNota .divN2{
+        font-size: 1.5rem;
+    }
+    .divHobbis li, #group .habi p,.divContenedor1 p,.divContacto li{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    #group .habi{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #perfil{
+        image-rendering: crisp-edges;
+    }
+    .divContenedor2 h1{
+        font-size: 1.8rem;
+    }
+  
+}
